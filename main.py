@@ -202,7 +202,7 @@ for image_path in full_paths:
 
 
         else:
-            print(f"❌ Phase 2 Failed: {phase2_response.text}")
+            print(f"❌ Phase 2 Failed: {phase2_response.text}") 
 
     else:
         print("❌ API Failed - Check the error above")
